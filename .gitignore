@@ -1,0 +1,10 @@
+# Binaries
+mqtt2push
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Local configs
+config.yml
