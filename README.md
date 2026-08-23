@@ -71,22 +71,8 @@ Build from source:
 go mod tidy
 go build -o mqtt2push
 ```
-
-
-Download the appropriate `mqtt2push` binary for your system from the
-GitHub Releases page.
-
-Make it executable:
-
-``` bash
-chmod +x mqtt2push
-```
-
-Create a `config.yml` next to the executable and start it:
-
-``` bash
-./mqtt2push
-```
+Done. 
+Next, you need to configure the config.yml
 
 ## Configuration
 
