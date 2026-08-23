@@ -49,6 +49,11 @@ Temperature exceeded 80°C
 
 ## Installation
 
+Go to /usr/src
+``` bash
+cd /usr/src
+```
+
 Download the appropriate `mqtt2push` binary for your system from the
 GitHub Releases page.
 
