@@ -61,6 +61,18 @@ Download the current git repository:
 git clone git@github.com:signalgridco/mqtt2push.git
 ```
 
+cd into the mqtt repo:
+``` bash
+cd mqtt2push
+```
+
+Build from source:
+``` bash
+go mod tidy
+go build -o mqtt2push
+```
+
+
 Download the appropriate `mqtt2push` binary for your system from the
 GitHub Releases page.
 
