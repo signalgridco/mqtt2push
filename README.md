@@ -1,35 +1,9 @@
 # mqtt2push
 
-Turn MQTT messages into push notifications.
-
-``` text
-MQTT Broker → mqtt2push → Push Notification → iOS / Android
-```
-
 `mqtt2push` is a lightweight bridge that subscribes to one or more MQTT
 topics and forwards incoming messages as push notifications to your
 phone.
 
-The MQTT topic becomes the notification title and the MQTT payload
-becomes the notification body.
-
-For example:
-
-``` text
-Topic:
-factory/production/temperature
-
-Message:
-Temperature exceeded 80°C
-```
-
-becomes:
-
-``` text
-factory · production · temperature
-
-Temperature exceeded 80°C
-```
 
 ## Features
 
