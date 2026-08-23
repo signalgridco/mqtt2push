@@ -137,6 +137,8 @@ Once configured, `mqtt2push` receives MQTT messages from your broker and
 forwards them to the configured Signalgrid channel for delivery to your
 devices.
 
+You can create your account [here](https://web.signalgrid.co).
+
 ## Topics
 
 Multiple MQTT subscriptions can be configured:
