@@ -223,18 +223,3 @@ Connected to MQTT broker mqtt.example.com:1883
 Subscribed to alerts/# with QoS 0
 Topic: alerts/server1 | Message: Server unavailable | Response: 200 OK
 ```
-
-## Building from Source
-
-Requires Go.
-
-``` bash
-go mod tidy
-go build -o mqtt2push
-```
-
-Then:
-
-``` bash
-./mqtt2push
-```
