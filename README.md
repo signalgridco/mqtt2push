@@ -49,9 +49,16 @@ Temperature exceeded 80°C
 
 ## Installation
 
-Go to /usr/src
+Go to /usr/src:
+
 ``` bash
 cd /usr/src
+```
+
+Download the current git repository:
+
+``` bash
+git clone git@github.com:signalgridco/mqtt2push.git
 ```
 
 Download the appropriate `mqtt2push` binary for your system from the
