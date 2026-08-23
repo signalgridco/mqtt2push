@@ -1,9 +1,7 @@
 # mqtt2push
 [![Website](https://img.shields.io/badge/Website-signalgrid.co-blue)](https://signalgrid.co)
 
-`mqtt2push` is a lightweight bridge that subscribes to one or more MQTT
-topics and forwards incoming messages as push notifications to your
-phone.
+mqtt2push is a lightweight Go daemon that subscribes to MQTT topics and forwards incoming messages as push notifications to iOS, Android, and web clients.
 
 
 ## Features
