@@ -1,4 +1,5 @@
 # mqtt2push
+![MQTT](https://img.shields.io/badge/MQTT-3C0552?style=for-the-badge&logo=mqtt&logoColor=white)
 [![Website](https://img.shields.io/badge/Website-signalgrid.co-blue)](https://signalgrid.co)
 
 `mqtt2push` is a lightweight bridge that subscribes to one or more MQTT
